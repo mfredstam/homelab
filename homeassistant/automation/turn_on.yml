@@ -1,0 +1,26 @@
+alias: Lights On
+description: ""
+triggers:
+  - trigger: time
+    at: "15:00:00"
+  - trigger: time
+    at: "06:00:00"
+conditions: []
+actions:
+  - type: turn_on
+    device_id: 5388636da44cbba9cec42cbdb27a2c9c
+    entity_id: 0fbb6cfaa2b1dcd87ca29594961516e1
+    domain: switch
+  - type: turn_on
+    device_id: fae29df44da0d645c042713071a15f12
+    entity_id: a6179ab02d009fbf138434717c69dac1
+    domain: light
+  - type: turn_on
+    device_id: 1df927d60d27c503ff283b554bd7c744
+    entity_id: 1289b118c4e3c4a67f3cc646441a927b
+    domain: switch
+  - type: turn_on
+    device_id: 1f2e187bb18ddde0c276362820edb261
+    entity_id: d71a03b9142f5d1fe2c90dedee28fde6
+    domain: switch
+mode: single
