@@ -2,7 +2,8 @@
 
 ## Pre-requisite
 
-Computer/VM running Debian 13.
+VM running Debian 13. The VM need to be run as an actual VM, not LXC in Proxmox.
+Otherwise, the USB passthrough will not work correctly.
 
 ## Quick Setup (Automated)
 
